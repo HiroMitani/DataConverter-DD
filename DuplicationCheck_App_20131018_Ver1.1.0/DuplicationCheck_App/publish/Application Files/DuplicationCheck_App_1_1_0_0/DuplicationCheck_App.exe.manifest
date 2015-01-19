@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.1.0.0" name="DuplicationCheck_App.exe" publicKeyToken="c5b4b82e5dd097bb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DuplicationCheck_App" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DuplicationCheck_App.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC マニフェスト オプション
+             Windows のユーザー アカウント制御のレベルを変更するには、
+             requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            下位互換性のためにファイルおよびレジストリの仮想化を
+            利用する場合は、requestedExecutionLevel ノードを削除してください。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MSDATASRC" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DuplicationCheck_App.exe" size="84992">
+      <assemblyIdentity name="DuplicationCheck_App" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>C3zeaSIeY4zYFY/CtjbT52v68Gg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.Access.dll" size="970752">
+      <assemblyIdentity name="Interop.Access" version="9.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1e08k8zKBm5cfGq4KN4doUwXy+Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ADOX.dll" size="36864">
+      <assemblyIdentity name="Interop.ADOX" version="2.8.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>MF5kg9sblmTiFZ1B6VvBTAMKSk8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.DAO.dll" size="65536">
+      <assemblyIdentity name="Interop.DAO" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SGDTcW7LjVVBI/udxv9EaJoQR3U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.Excel.dll" size="1048576">
+      <assemblyIdentity name="Interop.Excel" version="1.4.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>DRv2QcQAfkXA4Kl/26Bdw+V76So=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.Microsoft.Office.Core.dll" size="196608">
+      <assemblyIdentity name="Interop.Microsoft.Office.Core" version="2.2.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>LaiKDtSvzyO7IB1P65imHg7S3ME=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSComctlLib.dll" size="229376">
+      <assemblyIdentity name="Interop.MSComctlLib" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>y3dInEfmkmljLZ/GnhJ7eh9aaI8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.OWC10.dll" size="487424">
+      <assemblyIdentity name="Interop.OWC10" version="1.2.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>E9mjAltg1lZ6d5mrD2fu5Vnd75E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.VBIDE.dll" size="57344">
+      <assemblyIdentity name="Interop.VBIDE" version="5.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EGtbVmPNMY43RcYTtO+BQrUjcAs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=MITANI\Administrator" issuerKeyHash="41e7c95a6aa92f87b115f5d4a20b4343288824a0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LpkSo3C0Jgq8j6I+UGv+uReFt2Q=</DigestValue></Reference></SignedInfo><SignatureValue>kGQNoyaomQVSkAW59Xv2bkLfDouaJChZL8yOThKvUCmt8bTZhkf8fVVZL0mPX4ivAg4SdIEAmhaa3rBZxyO4utgchYTljiES7p2aZHplLhsW29yIx9r3vNPtIRIgMnmtPaZiKUdHHpYH81r35s30vAkhbGa/5dNe6TugHZeBBzI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>k0hiG5hR2lZsX+oaCZrtabD9PMWCRaH7Xyrkv8Iyu60p/UXPOT9txj8VP6/CDJyNFpuUFWmzH4drUINhcM2RYZg0/RQZ2Rbwllu8oc6tlUTlBsVR0EnMlTzQ77oOKnIcL5W/SGI/hmW3ryhOUGlJ/C3ZFPB93DneUtb/d0lwlV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="64b78517b9fe6b503ea28fbc0a26b470a312992e" Description="" Url=""><as:assemblyIdentity version="1.1.0.0" name="DuplicationCheck_App.exe" publicKeyToken="c5b4b82e5dd097bb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MITANI\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lrz730t8thIcmk3GSa0rvRpHozA=</DigestValue></Reference></SignedInfo><SignatureValue>DEdWksiL8B8cnN1BrQTJ2O4//7Oc7z7n7WcekbdWLQ0uoHiVbLVl+3TgTO0bUB9DEdLYkcbiUkm0bgsolm3fH9Ssw8LSNUSC4VEqgWMfCg3tNip+DlJYFRXDU1THlAh7zChGXT1BhjIPtbWS37wzX71EVarB/EWEVEStjRdKZr8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>k0hiG5hR2lZsX+oaCZrtabD9PMWCRaH7Xyrkv8Iyu60p/UXPOT9txj8VP6/CDJyNFpuUFWmzH4drUINhcM2RYZg0/RQZ2Rbwllu8oc6tlUTlBsVR0EnMlTzQ77oOKnIcL5W/SGI/hmW3ryhOUGlJ/C3ZFPB93DneUtb/d0lwlV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAU6gAwIBAgIQHnpwQcbjBKhLlr2NNv3U2zAJBgUrDgMCHQUAMDMxMTAvBgNVBAMeKABNAEkAVABBAE4ASQBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwHhcNMTIwNzMxMDIyNzUxWhcNMTMwNzMxMDgyNzUxWjAzMTEwLwYDVQQDHigATQBJAFQAQQBOAEkAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTSGIbmFHaVmxf6hoJmu1psP08xYJFoftfKuS/wjK7rSn9Rc85P23GPxU/r8IMnI0Wm5QVabMfh2tQg2FwzZFhmDT9FBnZFvCWW7yhzq2VROUGxVHQScyVPNDvug4qchwvlb9IYj+GZbevKE5QaUn8LdkU8H3cOd5S1v93SXCVXQIDAQABMAkGBSsOAwIdBQADgYEAWGn2On/fbFyjL6ZrWWxiYBGpJEO4WVBuezknZFp1z7DXhK4Q+tdBWJtWYOTTABRXjO9HHJngZ6FnCxiIlevLIV/WnyipoXGJE7RevkyirgjcNadK5N94Zs0RS9Z99fjg9IgvOljLQ68bvvF1Z1vBwIguIHvoKkjNM7J3Dhqp470=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
